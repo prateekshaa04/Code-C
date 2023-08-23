@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include"swap.h"
-void bblsort(int *arr,int n)
+void bubblesort(int *arr,int n)
 {
     int numberofpasses;
     for(int i=n-1;i>0;i--)
@@ -26,7 +26,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    bblsort(arr,n); 
+    bubblesort(arr,n); 
     printf("Sorted array:");
     for(int i=0;i<n;i++)
     {
